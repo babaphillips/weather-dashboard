@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+  <header class="hero">
+    <h1 class="app-title"><i class="fab fa-github"></i> Weather Dashboard!</h1>
+  </header>
+  <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-4">
+      <h3 class="card-header">Search for a City:</h3>
+      <div class="card">
+        <!-- Input city name form -->
+        <form class="control pb-1" id="city-search-form">
+          <input class="input has-text-centered" type="text" placeholder="Major City Name" id="city-name" />
+        </form>
+      </div>
+      <button id="city-submit" class="button is-fullwidth">
+        Submit
+      </button>
+    </div>
+  <div class="column is-centered is-9">
+    <!-- Weather section -->
+    <div class="box" id="weather-box">
+      <div class="columns is-justify-content-center">
+        <!-- Input city selector column -->
+        <div class="column is-3">
+
+          <!-- Saved city buttons -->
+          <div id="city-selection-group">
+            <container id="city-buttons" class="buttons are-small">
+            </container>
+          </div>
+        </div>
+        <!-- Display weather section -->
+        <div class="column is-9" id="display-weather-column">
+          <div>
+            <h2 class="is-size-3 is-size-5-mobile title has-text-centered" id="city-date">
+              <span id="city-display">City, State</span>
+            </h2>
+            <h2 class="is-size-3 is-size-5-mobile subtitle has-text-centered" id="date-display">
+              <span id="city-date">(Date)</span>
+            </h2>
+            <div class="weather-info icon-size" id="today-icons"></div>
+          </div>
+          <div class="columns is-vcentered">
+            <div class="column weather-info container is-4">
+              <div class="is-flex is-flex-direction-column">
+                <div class="is-flex is-justify-content-center is-flex-direction-column has-text-centered"
+                  id="weather-right-now">
+                  <!-- Description of weather is placed here using script.js -->
+                </div>
+                <div class="is-flex is-justify-content-center">
+                  <span class="icon is-large" id="today-icon">
+                    <!-- Icon is placed here using script.js -->
+                  </span>
+                </div>
+                <div class="is-flex is-justify-content-center is-flex-direction-column has-text-centered"
+                  id="weather-main">
+                  <!-- Description of weather is placed here using script.js -->
+                </div>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="columns is-vcentered is-mobile">
+                <div class="column has-text-right">
+                  <ul class="city-today-group">
+                    <li>Temp:</li>
+                    <li>Winds:</li>
+                    <li>Humidity:</li>
+                    <li>UV Index: </li>
+                  </ul>
+
+                </div>
+                <div class="column has-text-left pl-0">
+                  <ul class="city-today-group">
+                    <li id="today-temperature"></li>
+                    <li id="today-winds"></li>
+                    <li id="today-humidity"></li>
+                    <span id="today-uv-index"></span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
