@@ -98,10 +98,10 @@ p {
 
 .app-title {
   font-size: 3rem;
-  background-color: var(--primary);
-  color: var(--dark);
+  color: #ffffff;
   padding: 0 10px;
   display: inline-block;
+  text-align: center;
 }
 
 .list-group {
