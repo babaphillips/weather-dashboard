@@ -1,15 +1,15 @@
 var oneCall = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={b58f74b3a7c8d5c465fd7279c1dd70b4}"
 var getCoordURL ='http://api.openweathermap.org/geo/1.0/direct?q={city name}&appid={b58f74b3a7c8d5c465fd7279c1dd70b4}'
-var location = document.getElementById('location')
-var submitBtn = document.getElementById('location-search')
+var submitBtn = document.getElementById('submit')
 
 // create a function that captures the users input
 function captureUserInput(event) {
 event.preventDefault();
-console.log("function was called");
+
 
 captureUserInput()
-var userInput =  location.value;
+var userInput =  input.value;
+
 getCoords(userInput)
 
 }
@@ -28,4 +28,3 @@ function getCoords(city) {
 
 
 submitBtn.addEventListener('submit', captureUserInput)
-
