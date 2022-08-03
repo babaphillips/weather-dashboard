@@ -12,11 +12,11 @@
   <header class="hero">
     <h1 class="header-title"> Weather Dashboard</h1>
   </header>
-  <main>
-      <div class="column">
+    <div class="container is-fluid mt-6">
+      <div class="column is-vcentered">
         <form class="box" style="width: 400px;">
           <div class="field">
-            <label class="label ">Search for a City</label>
+            <label class="label is-size-4">Search for a City</label>
             <div class="location">
               <input class="input " type="text" placeholder="Search for a Major City">
             </div>
@@ -24,7 +24,11 @@
           <button class="button is-info is-fullwidth" id="submit">Submit</button>
         </form>
         </div>
+        <div class="column" id="renderWeather">
+          <form class="box"></form>
+        </div>
       </div>
+
   </main>
   <script src="./assets/js/homepage.js"></script>
 </body>
