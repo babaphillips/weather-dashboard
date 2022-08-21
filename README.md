@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+# Weather Dashboard
 
-You can use the [editor on GitHub](https://github.com/babaphillips/weather-dashboard/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![License](https://img.shields.io/badge/License-MIT-lightblue.svg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Build with:
 
-### Markdown
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Description:
 
-# Header 1
-## Header 2
-### Header 3
+In this weekly module the challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
-- Bulleted
-- List
+## Contents
 
-1. Numbered
-2. List
+- [Installation](#installation)
+- [Usage](#usage)
+- [Visuals](#visuals)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-**Bold** and _Italic_ and `Code` text
+## Installation
 
-[Link](url) and ![Image](src)
-```
+1. Clone the repo
+   ```sh
+   git clone git@github.com:babaphillips/employee-tracker.git
+   ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+## Usage
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/babaphillips/weather-dashboard/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This project can be used by individuals to look for the current weather and 5 day forecast.
 
-### Support or Contact
+## Visuals
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![My Image](C:\Users\amand\Documents\coding bootcamp\weather-dashboard\assets\images\06-server-side-apis-homework-demo.png)
+
+## License
+
+This application is licensed under the MIT license.
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are welcome. If you have a suggestion that would make this better, please fork the repo and create a pull request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/New`)
+5. Open a Pull Request
+
+## Tests
+
+No tests
+
+## Questions?
+
+
+Check the GitHub repository here: [GitHub](https://github.com/babaphillips/weather-dashboard/)
+
+Check out my other projects at my Github here: [Github](https://github.com/babaphillips)
+
+How To Reach Me For Additional Questions: amandavphillips@icloud.com
