@@ -37,7 +37,7 @@ This project can be used by individuals to look for the current weather and 5 da
 
 ## Visuals
 
-![My Image](C:\Users\amand\Documents\coding bootcamp\weather-dashboard\assets\images\06-server-side-apis-homework-demo.png)
+![gif](./public/assets/images/06-server-side-apis-homework-demo.png)
 
 ## License
 
