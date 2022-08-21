@@ -37,7 +37,7 @@ This project can be used by individuals to look for the current weather and 5 da
 
 ## Visuals
 
-![gif](./public/assets/images/06-server-side-apis-homework-demo.png)
+![MyImage](06-server-side-apis-homework-demo.png)
 
 ## License
 
