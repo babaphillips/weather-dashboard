@@ -53,17 +53,17 @@ function renderCurrentWeather(city, weather) {
   var heading = document.createElement("h2");
   var tempEl = document.createElement("p");
   var windEl = document.createElement("p");
-  var humidityEl = document.createElement("p");
+  var humidityE1 = document.createElement("p");
   var uviEl = document.createElement("p");
   var uviBadge = document.createElement("button");
 
   heading.textContent = city + " " + date;
-  tempEl.textContent = "Temp: " + tempF;
-  windEl.textContent = "Wind: " + windMph;
-  humidity.textContent = "Humidity:" + humidity;
-  uviEl.textContent = "UVI:" + uvi;
+  tempEl.textContent = "Temp: " + tempF + "F";
+  windEl.textContent = "Wind: " + windMph + "MPH";
+  humidityE1.textContent = "Humidity: " + humidity + "%";
+  uviEl.textContent = "UVI: " + uvi;
 
-  cardBody.append(heading, tempEl, windEl, humidityEl, uviEl, uviBadge);
+  cardBody.append(heading, tempEl, windEl, humidityE1, uviEl, uviBadge);
   card.append(cardBody);
   todayContainer.append(card);
 }
@@ -88,12 +88,14 @@ function renderForecast(daily) {
     var heading = document.createElement("h2");
     var tempEl = document.createElement("p");
     var windEl = document.createElement("p");
-    var humidityEl = document.createElement("p");
+    var humidityE1 = document.createElement("p");
 
     heading.textContent = new Date(formattedDate).toLocaleDateString();
     tempEl.textContent = "Temp: " + tempF;
+    windEl.textContent = "Wind: " + windMph;
+    humidityE1.textContent = "Humidity: " + humidity;
 
-    cardBody.append(heading, tempEl);
+    cardBody.append(heading, tempEl, windEl, humidity);
     card.append(cardBody);
     div.append(card);
   }
